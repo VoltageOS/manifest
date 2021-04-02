@@ -41,7 +41,44 @@
     <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" revision="11-sm8250" remote="voltage" />
     <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom_media" revision="11-sm8250" remote="voltage" />
 
+  <!-- Bootable -->
+  <project name="bootable_recovery" path="bootable/recovery" remote="voltage" />
+
+  <!-- External -->
+  <project path="external/json-c" name="external_json-c" remote="voltage" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" remote="voltage" clone-depth="1" />
+
+  <!-- Build -->
+  <project path="bionic" name="bionic" remote="voltage" />
+  <project path="build/make" name="build" remote="voltage">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="voltage" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+    <!-- Framework -->
+    <project path="frameworks/av" name="frameworks_av" remote="voltage" />
+    <project path="frameworks/base" name="frameworks_base" remote="voltage" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
+
     <!-- vendor -->
+    <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
+
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="voltage"/>
 
 </manifest>
