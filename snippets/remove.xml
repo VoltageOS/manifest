@@ -81,4 +81,10 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
 
+  <!-- external -->
+  <remove-project name="platform/external/tinycompress"/>
+
+  <!-- system -->
+  <remove-project name="platform/system/update_engine"/>
+
 </manifest>

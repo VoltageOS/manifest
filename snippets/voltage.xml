@@ -23,6 +23,10 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
     </project>
 
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" revision="11-msm8996" remote="voltage" />
@@ -43,9 +47,6 @@
 
   <!-- Bootable -->
   <project name="bootable_recovery" path="bootable/recovery" remote="voltage" />
-
-  <!-- External -->
-  <project path="external/json-c" name="external_json-c" remote="voltage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" remote="voltage" clone-depth="1" />
@@ -78,7 +79,5 @@
 
     <!-- vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
-
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="voltage"/>
 
 </manifest>
