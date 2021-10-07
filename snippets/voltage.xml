@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="voltage"
+           revision="12"
+           fetch="https://github.com/VoltageOS" />
+
+  <!-- Build -->
+  <project path="bionic" name="bionic" remote="voltage" />
+  <project path="build/make" name="build" remote="voltage">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="voltage" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+    <!-- Framework -->
+    <project path="frameworks/av" name="frameworks_av" remote="voltage" />
+    <project path="frameworks/base" name="frameworks_base" remote="voltage" />
+
+    <!-- Hardware -->
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />
+
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" remote="voltage" />
+
+    <!-- vendor -->
+    <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
+
+</manifest>
