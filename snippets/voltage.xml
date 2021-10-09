@@ -27,14 +27,21 @@
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />
+    <project path="hardware/voltage/interfaces" name="hardware_voltage_interfaces" remote="voltage" />
+    <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="voltage" />
 
     <!-- Packages -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
 
-  <!-- System -->
-  <project path="system/core" name="system_core" remote="voltage" />
+    <!-- External -->
+    <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
 
-    <!-- vendor -->
+    <!-- System -->
+    <project path="system/core" name="system_core" remote="voltage" />
+
+    <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
+    <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
+    <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage" />
 
 </manifest>
