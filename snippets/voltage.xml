@@ -32,9 +32,13 @@
 
     <!-- Packages -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
+    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage" />
+    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
 
     <!-- External -->
     <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="voltage" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="voltage" />

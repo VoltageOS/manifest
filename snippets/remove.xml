@@ -69,11 +69,18 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/services/Telephony"/>
 
-  <!-- hardware -->
+  <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>
 
-  <!-- system -->
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/e2fsprogs" />
+
+  <!-- System -->
   <remove-project name="platform/system/core"/>
 
 </manifest>
