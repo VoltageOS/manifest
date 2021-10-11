@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/32ihEhr.png"/>
+</p>
+
 ### Sync ###
 ```bash
         repo init -u https://github.com/VoltageOS/manifest -b 12
