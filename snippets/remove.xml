@@ -65,6 +65,7 @@
 
   <remove-project name="platform/art" />
   <remove-project name="platform/libcore" />
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- Toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />

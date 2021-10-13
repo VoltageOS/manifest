@@ -21,8 +21,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-    <project name="art" path="art" remote="voltage" />
-    <project name="libcore" path="libcore" remote="voltage" />
+    <project path="art" name="art" remote="voltage" />
+    <project path="libcore" name="libcore" remote="voltage" />
+    <project path="bootable/recovery" name="bootable_recovery" remote="voltage" />
 
     <!-- Framework -->
     <project path="frameworks/av" name="frameworks_av" remote="voltage" />
