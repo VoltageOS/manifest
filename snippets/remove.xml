@@ -63,6 +63,9 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <remove-project name="platform/art" />
+  <remove-project name="platform/libcore" />
+
   <!-- Toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
@@ -70,11 +73,17 @@
   <!-- Framework -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/services/Telephony"/>
   <remove-project name="platform/packages/modules/Connectivity"/>
