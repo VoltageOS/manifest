@@ -83,6 +83,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/packages/apps/ThemePicker" />
@@ -99,5 +100,6 @@
 
   <!-- System -->
   <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/sepolicy"/>
 
 </manifest>
