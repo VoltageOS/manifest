@@ -78,7 +78,7 @@
     <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage" />
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage-staging" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage" />
-<!--    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage" /> -->
+    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage-staging" />
     <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
     <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage-staging" />
     <project path="packages/apps/GrapheneOS-Camera" name="packages_apps_GrapheneOS-Camera" remote="voltage" />
