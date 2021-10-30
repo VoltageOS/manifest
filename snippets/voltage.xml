@@ -38,6 +38,7 @@
     <project path="frameworks/av" name="frameworks_av" remote="voltage" />
     <project path="frameworks/base" name="frameworks_base" remote="voltage" />
     <project path="frameworks/native" name="frameworks_native" remote="voltage" />
+    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage" />
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />
