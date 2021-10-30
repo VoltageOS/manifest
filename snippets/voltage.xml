@@ -55,6 +55,7 @@
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage" />
     <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage" />
     <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage" />
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage" />
