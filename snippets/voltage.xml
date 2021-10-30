@@ -61,7 +61,7 @@
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" revision="14" remote="gitlab" />
+    <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="14" remote="gitlab" />
 
     <!-- External -->
     <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
