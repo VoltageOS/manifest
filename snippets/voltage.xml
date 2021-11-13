@@ -44,6 +44,10 @@
     <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />
     <project path="hardware/voltage/interfaces" name="hardware_voltage_interfaces" remote="voltage" />
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="voltage" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="12-sm8150" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="12-sm8150" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="12-sm8150" remote="voltage" />
 
     <!-- Packages -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
