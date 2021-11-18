@@ -78,6 +78,7 @@
     <!-- System -->
     <project path="system/core" name="system_core" remote="voltage" />
     <project path="system/sepolicy" name="system_sepolicy" remote="voltage" />
+    <project path="system/netd" name="system_netd" remote="voltage" />
 
     <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
