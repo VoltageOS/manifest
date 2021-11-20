@@ -98,6 +98,7 @@
   <remove-project name="platform/packages/modules/Permission"/>
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces"/>
   <remove-project name="platform/hardware/libhardware"/>
 
   <!-- External -->
