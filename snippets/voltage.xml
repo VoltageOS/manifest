@@ -64,6 +64,7 @@
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage" />
     <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage" />
+    <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage" />
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage" />
 
     <!-- Prebuilts -->
