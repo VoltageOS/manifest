@@ -76,6 +76,7 @@
     <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
     <project path="external/tinyxml" name="external_tinyxml" remote="voltage" /> 
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="voltage" />
+    <project path="external/exfatprogs" name="external_exfatprogs" remote="voltage" />
     <project name="external_themelib" path="external/themelib" remote="voltage" />
     <project name="external_colorkt" path="external/colorkt" remote="voltage" />
 
