@@ -46,11 +46,6 @@
   <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/trout" />
-  <remove-project name="device/google/gs101" />
-  <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs-common" />
-  <remove-project name="device/google/raviole" />
-  <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
