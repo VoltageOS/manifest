@@ -102,6 +102,8 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
 
   <!-- System -->
   <remove-project name="platform/system/core"/>

@@ -75,6 +75,8 @@
     <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="14" remote="gitlab" />
 
     <!-- External -->
+    <project path="external/gptfdisk" name="external_gptfdisk" remote="voltage" />
+    <project path="external/mksh" name="external_mksh" remote="voltage" />
     <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
     <project path="external/tinyxml" name="external_tinyxml" remote="voltage" /> 
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="voltage" />
