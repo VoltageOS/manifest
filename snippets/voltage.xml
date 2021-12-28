@@ -86,6 +86,7 @@
     <project path="external/sqlite" name="external_sqlite" remote="voltage" />
     <project name="external_themelib" path="external/themelib" remote="voltage" />
     <project name="external_colorkt" path="external/colorkt" remote="voltage" />
+    <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="voltage" />
