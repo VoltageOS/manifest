@@ -101,5 +101,6 @@
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage" />
     <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="voltage" />
+    <project path="vendor/ota" name="android_vendor_voltageota" remote="voltage" />
 
 </manifest>
