@@ -87,6 +87,8 @@
     <project name="external_themelib" path="external/themelib" remote="voltage" />
     <project name="external_colorkt" path="external/colorkt" remote="voltage" />
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
+    <project path="external/bromite" name="voltageos/bromite" clone-depth="1" revision="master" remote="gitlab" />
+    <project path="external/bromite_webview" name="voltageos/bromite_webview" clone-depth="1" revision="master" remote="gitlab" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="voltage" />
