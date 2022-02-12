@@ -58,6 +58,7 @@
     <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="12-sm8150" remote="voltage" />
 
     <!-- Packages -->
+    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="voltage" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage" />
@@ -98,6 +99,7 @@
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
 
     <!-- System -->
+    <project path="system/bt" name="system_bt" remote="voltage" />
     <project path="system/core" name="system_core" remote="voltage" />
     <project path="system/sepolicy" name="system_sepolicy" remote="voltage" />
     <project path="system/netd" name="system_netd" remote="voltage" />
@@ -108,6 +110,7 @@
 
     <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="voltage" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage" />
     <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="voltage" />

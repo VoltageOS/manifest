@@ -78,6 +78,7 @@
   <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -109,6 +110,7 @@
   <remove-project name="platform/external/arm-optimized-routines" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt"/>
   <remove-project name="platform/system/core"/>
   <remove-project name="platform/system/sepolicy"/>
   <remove-project name="platform/system/netd" />
