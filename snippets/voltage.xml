@@ -133,6 +133,9 @@
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
     <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="voltage" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="voltage" />
+    <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="voltage" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="voltage" />
+    <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="voltage" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage" />
     <project path="vendor/ota" name="android_vendor_voltageota" remote="voltage" />
