@@ -65,6 +65,7 @@
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="voltage" />
     <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="voltage" />
     <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="voltage" />
+    <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="voltage" />
     <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="voltage" />
     <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="voltage" />
     <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage" />
