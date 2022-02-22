@@ -5,6 +5,10 @@
            revision="12"
            fetch="https://github.com/VoltageOS" />
 
+  <remote  name="VoltageOS-Devices"
+           revision="12"
+           fetch="https://github.com/VoltageOS-Devices" />
+
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
