@@ -79,6 +79,7 @@
     <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="voltage" />
     <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage" />
     <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage" />
+    <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="voltage" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage" />
     <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage" />
@@ -99,6 +100,7 @@
     <project name="external_themelib" path="external/themelib" remote="voltage" />
     <project name="external_colorkt" path="external/colorkt" remote="voltage" />
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
+    <project path="external/faceunlock" name="voltageos/external_faceunlock" revision="12" remote="gitlab" />
 
     <!-- System -->
     <project path="system/bt" name="system_bt" remote="voltage" />
