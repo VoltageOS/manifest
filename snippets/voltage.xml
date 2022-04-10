@@ -2,11 +2,11 @@
 <manifest>
 
   <remote  name="voltage"
-           revision="12"
+           revision="12l"
            fetch="https://github.com/VoltageOS" />
 
   <remote  name="VoltageOS-Devices"
-           revision="12"
+           revision="12l"
            fetch="https://github.com/VoltageOS-Devices" />
 
   <remote  name="gitlab"
@@ -101,8 +101,6 @@
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="voltage" />
     <project path="external/exfatprogs" name="external_exfatprogs" remote="voltage" />
     <project path="external/sqlite" name="external_sqlite" remote="voltage" />
-    <project name="external_themelib" path="external/themelib" remote="voltage" />
-    <project name="external_colorkt" path="external/colorkt" remote="voltage" />
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
     <project path="external/faceunlock" name="voltageos/external_faceunlock" revision="12" remote="gitlab" />
 
