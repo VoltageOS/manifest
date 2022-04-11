@@ -5,6 +5,10 @@
            revision="12l"
            fetch="https://github.com/VoltageOS" />
 
+  <remote  name="voltage-staging"
+           revision="12l"
+           fetch="https://github.com/VoltageOS-staging" />
+
   <remote  name="VoltageOS-Devices"
            revision="12l"
            fetch="https://github.com/VoltageOS-Devices" />
