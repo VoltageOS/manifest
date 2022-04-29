@@ -48,6 +48,7 @@
     <project path="frameworks/native" name="frameworks_native" remote="voltage-staging" />
     <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage-staging" />
     <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage-staging" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="voltage" />
 
     <!-- Hardware -->
     <project path="hardware/interfaces" name="hardware_interfaces" remote="voltage" />
