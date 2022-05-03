@@ -86,6 +86,9 @@
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" revision="lineage-19.1" remote="LineageOS" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" revision="lineage-19.1" remote="LineageOS" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-19.1" remote="LineageOS" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="lineage-19.1" remote="LineageOS" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" revision="lineage-19.1" remote="LineageOS" />
+  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" revision="lineage-19.1" remote="LineageOS" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
