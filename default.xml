@@ -1096,7 +1096,6 @@
   <!-- VoltageOS -->
   <include name="snippets/remove.xml" />
   <include name="snippets/voltage.xml" />
-  <include name="snippets/lineage.xml" />
-  <include name="snippets/proton.xml" />
+  <include name="snippets/external.xml" />
 
 </manifest>

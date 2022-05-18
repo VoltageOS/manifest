@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="proton"
+           fetch="https://github.com/ProtonAOSP"
+           revision="sc-v2" />
   <remote  name="LineageOS"
            fetch="https://github.com/"
            revision="lineage-18.1" />
+  <remote  name="grapheneos"
+           fetch="https://github.com/GrapheneOS"
+           revision="12.1" />
 
+  <remove-project name="platform/external/noto-fonts" />
+  <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
+  <remove-project name="platform/external/roboto-fonts" />
+  <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
+  <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
+  <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
+  <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="LineageOS" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="LineageOS" />
@@ -118,4 +131,6 @@
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="LineageOS" />
   <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" remote="LineageOS" />
+
+  <project path="external/Camera" name="platform_external_Camera" remote="grapheneos" />
 </manifest>
