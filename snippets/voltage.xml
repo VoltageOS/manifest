@@ -79,7 +79,7 @@
     <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
     <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage" />
     <project path="packages/apps/GrapheneOS-Camera" name="packages_apps_GrapheneOS-Camera" remote="voltage" />
-    <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="voltage" />
+    <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage" />
     <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage" />
     <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage" />
     <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="voltage" />
