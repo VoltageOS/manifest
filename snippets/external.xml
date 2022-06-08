@@ -30,6 +30,7 @@
   <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-19.1-caf" remote="LineageOS" />
   <project path="hardware/oneplus" name="LineageOS/android_hardware_oneplus" remote="LineageOS" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="LineageOS" />
+  <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="LineageOS" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="LineageOS" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
