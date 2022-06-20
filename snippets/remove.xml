@@ -115,6 +115,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/erofs-utils" />
 
   <!-- System -->
   <remove-project name="platform/system/bt"/>
@@ -126,5 +127,6 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/logging"/>
+  <remove-project name="platform/system/extras" />
 
 </manifest>

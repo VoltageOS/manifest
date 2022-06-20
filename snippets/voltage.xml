@@ -106,6 +106,7 @@
     <project path="external/sqlite" name="external_sqlite" remote="voltage" />
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
     <project path="external/faceunlock" name="voltageos/external_faceunlock" revision="12" remote="gitlab" />
+    <project path="external/erofs-utils" name="external_erofs-utils" remote="voltage" />
 
     <!-- System -->
     <project path="system/bt" name="system_bt" remote="voltage" />
@@ -117,6 +118,7 @@
     <project path="system/update_engine" name="system_update_engine" remote="voltage" />
     <project path="system/libhwbinder" name="system_libhwbinder" remote="voltage" />
     <project path="system/logging" name="system_logging" remote="voltage" />
+    <project path="system/extras" name="system_extras" remote="voltage" />
 
     <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
