@@ -76,7 +76,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="LineageOS" />
 
   <!-- Packages -->
-  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" remote="LineageOS" />
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" remote="LineageOS" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="LineageOS" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="LineageOS" />
