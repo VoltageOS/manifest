@@ -9,6 +9,8 @@
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS"
            revision="12.1" />
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <remove-project name="platform/external/noto-fonts" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
@@ -78,6 +80,7 @@
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" remote="LineageOS" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="LineageOS" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="LineageOS" />
+  <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="LineageOS" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="LineageOS" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="LineageOS" />
