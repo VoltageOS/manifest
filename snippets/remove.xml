@@ -101,6 +101,7 @@
   <remove-project name="platform/packages/modules/Wifi"/>
   <remove-project name="platform/packages/modules/Permission"/>
   <remove-project name="platform/packages/modules/StatsD"/>
+  <remove-project name="platform/packages/modules/common"/>
   <remove-project name="platform/packages/providers/DownloadProvider"/>
   <remove-project name="platform/packages/providers/TelephonyProvider"/>
   <remove-project name="platform/packages/providers/MediaProvider"/>
