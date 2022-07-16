@@ -78,6 +78,7 @@
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
