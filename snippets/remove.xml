@@ -106,6 +106,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider"/>
   <remove-project name="platform/packages/providers/TelephonyProvider"/>
   <remove-project name="platform/packages/providers/MediaProvider"/>
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces"/>
