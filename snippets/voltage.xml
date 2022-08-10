@@ -103,7 +103,7 @@
     <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="15" remote="gitlab" />
+    <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
 
     <!-- External -->
     <project path="external/gptfdisk" name="external_gptfdisk" remote="voltage" />
