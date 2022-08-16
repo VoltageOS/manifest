@@ -17,7 +17,7 @@
            fetch="https://gitlab.com/" />
 
   <!-- Build -->
-  <project path="build/make" name="make" remote="voltage-staging">
+  <project path="build/make" name="build" remote="voltage-staging">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,16 +26,26 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="soong" remote="voltage-staging" >
+  <project path="build/soong" name="build_soong" remote="voltage-staging" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+    <project path="bionic" name="bionic" remote="voltage-staging" />
+    <project path="art" name="art" remote="voltage-staging" />
+    <project path="libcore" name="libcore" remote="voltage-staging" />
+    <project path="bootable/recovery" name="bootable_recovery" remote="voltage-staging" />
 
     <!-- Device -->
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="voltage" />
     <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="voltage" />
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="voltage" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="voltage" />
+
+    <!-- Framework -->
+    <project path="frameworks/av" name="frameworks_av" remote="voltage-staging" />
+    <project path="frameworks/base" name="frameworks_base" remote="voltage-staging" />
+    <project path="frameworks/native" name="frameworks_native" remote="voltage-staging" />
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage-staging" />
@@ -52,8 +62,17 @@
     <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="12-sm8150" remote="voltage" />
     <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="12-sm8150" remote="voltage" />
 
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage-staging" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-staging" />
+    <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
+
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
+
+    <!-- System -->
+    <project path="system/core" name="system_core" remote="voltage-staging" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="voltage-staging" />
 
     <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage-staging" />

@@ -63,7 +63,25 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>
+
+  <!-- System -->
+  <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/sepolicy"/>
 
 </manifest>
