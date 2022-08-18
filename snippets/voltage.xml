@@ -42,6 +42,9 @@
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="voltage" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="voltage" />
 
+    <!-- External -->
+    <project path="external/tinyxml" name="external_tinyxml" remote="voltage" />
+
     <!-- Framework -->
     <project path="frameworks/av" name="frameworks_av" remote="voltage-staging" />
     <project path="frameworks/base" name="frameworks_base" remote="voltage-staging" />
