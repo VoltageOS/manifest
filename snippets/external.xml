@@ -3,6 +3,9 @@
   <remote  name="LineageOS"
            fetch="https://github.com/"
            revision="lineage-19.1" />
+  <remote  name="proton"
+           fetch="https://github.com/ProtonAOSP"
+           revision="sc-v2" />
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -85,5 +88,11 @@
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="LineageOS" />
   <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" revision="lineage-18.1" remote="LineageOS" />
+
+  <remove-project name="platform/external/noto-fonts" />
+  <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
+  <remove-project name="platform/external/roboto-fonts" />
+  <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
 
 </manifest>
