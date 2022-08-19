@@ -69,6 +69,7 @@
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage-staging" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-staging" />
     <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
+    <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage-staging" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
