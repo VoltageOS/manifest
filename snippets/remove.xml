@@ -86,4 +86,7 @@
   <remove-project name="platform/system/core"/>
   <remove-project name="platform/system/sepolicy"/>
 
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress"/>
+
 </manifest>

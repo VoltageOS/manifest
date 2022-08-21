@@ -87,4 +87,8 @@
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage-staging" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage-staging" />
 
+    <!-- External -->
+    <project path="external/tinycompress" name="external_tinycompress" remote="voltage-staging" />
+    <project path="external/json-c" name="external_json-c" remote="voltage-staging" />
+
 </manifest>
