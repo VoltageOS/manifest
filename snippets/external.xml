@@ -6,6 +6,9 @@
   <remote  name="proton"
            fetch="https://github.com/ProtonAOSP"
            revision="sc-v2" />
+  <remote  name="grapheneos"
+           fetch="https://github.com/GrapheneOS"
+           revision="13" />
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -97,5 +100,7 @@
   <remove-project name="platform/external/roboto-fonts" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
   <remove-project name="platform/external/google-fonts/cutive-mono" />
+
+  <project path="external/Camera" name="platform_external_Camera" remote="grapheneos" />
 
 </manifest>
