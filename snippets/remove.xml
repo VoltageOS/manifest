@@ -88,6 +88,12 @@
   <remove-project name="platform/packages/services/Telephony"/>
   <remove-project name="platform/packages/modules/Connectivity"/>
   <remove-project name="platform/packages/modules/Permission"/>
+  <remove-project name="platform/packages/modules/common"/>
+  <remove-project name="platform/packages/modules/Bluetooth"/>
+  <remove-project name="platform/packages/modules/Wifi"/>
+  <remove-project name="platform/packages/modules/StatsD"/>
+  <remove-project name="platform/packages/providers/DownloadProvider"/>
+  <remove-project name="platform/packages/providers/MediaProvider"/>
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>

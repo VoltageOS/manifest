@@ -76,11 +76,18 @@
     <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="voltage-staging" />
     <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage" />
     <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="voltage" />
+    <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage-staging" />
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage-staging" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage-staging" />
     <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage-staging" />
-    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage-staging" />
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage-staging" />
+    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage-staging" />
+    <project path="packages/modules/common" name="packages_modules_common" remote="voltage-staging" />
+    <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="voltage-staging" />
+    <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage-staging" />
+    <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="voltage-staging" />
+    <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="voltage-staging" />
+    <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage-staging" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
