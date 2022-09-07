@@ -117,6 +117,7 @@
     <project path="external/faceunlock" name="voltageos/external_faceunlock" revision="12" remote="gitlab" />
     <project path="external/erofs-utils" name="external_erofs-utils" remote="voltage" />
     <project path="external/seedvault" name="external_seedvault" remote="voltage" />
+    <project path="external/expat" name="external_expat" remote="voltage" />
 
     <!-- System -->
     <project path="system/bt" name="system_bt" remote="voltage" />

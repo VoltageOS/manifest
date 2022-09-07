@@ -121,6 +121,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/erofs-utils" />
+  <remove-project name="platform/external/expat" />
 
   <!-- System -->
   <remove-project name="platform/system/bt"/>
