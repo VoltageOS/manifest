@@ -59,7 +59,7 @@
     <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" revision="13-msm8998" remote="voltage-staging" />
     <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" revision="13-msm8998" remote="voltage-staging" />
     <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" revision="13-msm8998" remote="voltage-staging" />
-    <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="12-sm8150" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="13-sm8150" remote="voltage-staging" />
     <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="12-sm8150" remote="voltage" />
     <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="12-sm8150" remote="voltage" />
 
