@@ -47,7 +47,8 @@
     <project path="frameworks/base" name="frameworks_base" remote="voltage-staging" />
     <project path="frameworks/native" name="frameworks_native" remote="voltage-staging" />
     <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage-staging" />
-
+    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage-staging" />
+    
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage-staging" />
     <project path="hardware/voltage/interfaces" name="hardware_voltage_interfaces" remote="voltage" />
