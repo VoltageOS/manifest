@@ -107,5 +107,6 @@
 
   <!-- External -->
   <remove-project name="platform/external/tinycompress"/>
+  <remove-project name="platform/external/jemalloc_new"/>
 
 </manifest>
