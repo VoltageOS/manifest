@@ -108,5 +108,6 @@
   <!-- External -->
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/external/jemalloc_new"/>
+  <remove-project name="platform/external/sqlite"/>
 
 </manifest>

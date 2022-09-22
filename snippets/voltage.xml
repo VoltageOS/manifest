@@ -117,5 +117,6 @@
     <project path="external/tinycompress" name="external_tinycompress" remote="voltage-staging" />
     <project path="external/json-c" name="external_json-c" remote="voltage-staging" />
     <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="voltage-staging" />
+    <project path="external/sqlite" name="external_sqlite" remote="voltage-staging" />
 
 </manifest>
