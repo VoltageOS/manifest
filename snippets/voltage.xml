@@ -73,6 +73,7 @@
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage-staging" />
     <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage-staging" />
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="voltage-staging" />
+    <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="voltage-staging" />
     <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="voltage-staging" />
     <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="voltage-staging" />
     <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="voltage-staging" />
