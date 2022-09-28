@@ -81,6 +81,7 @@
     <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage-staging" />
     <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage-staging" />
     <project path="packages/apps/Etar" name="packages_apps_Etar" remote="voltage-staging" />
+    <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage-staging" />
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage-staging" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage-staging" />
     <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage-staging" />
