@@ -112,6 +112,7 @@
 
     <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage-staging" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="voltage-staging" />
     <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="voltage" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="voltage" />
     <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="voltage" />

@@ -73,7 +73,6 @@
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
 
   <!-- Vendor -->
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="LineageOS" />
   <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" remote="LineageOS" />
   <project path="vendor/nxp/secure_element" name="LineageOS/android_vendor_nxp_secure_element" remote="LineageOS" />
   <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" remote="LineageOS" />
