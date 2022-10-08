@@ -103,6 +103,7 @@
     <!-- External -->
     <project path="external/seedvault" name="external_seedvault" remote="voltage-staging" />
     <project path="external/tinyxml" name="external_tinyxml" remote="voltage" /> 
+    <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="voltage-staging" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="voltage-staging" />
