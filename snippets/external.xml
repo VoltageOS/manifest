@@ -68,6 +68,7 @@
   <!-- Packages -->
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" revision="lineage-20.0" remote="LineageOS" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-20.0" remote="LineageOS" />
+  <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
