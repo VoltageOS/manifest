@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="voltage"
-           revision="12l"
+           revision="13"
            fetch="https://github.com/VoltageOS" />
 
   <remote  name="voltage-staging"
@@ -10,14 +10,14 @@
            fetch="https://github.com/VoltageOS-staging" />
 
   <remote  name="VoltageOS-Devices"
-           revision="12l"
+           revision="13"
            fetch="https://github.com/VoltageOS-Devices" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
   <!-- Build -->
-  <project path="build/make" name="build" remote="voltage-staging">
+  <project path="build/make" name="build" remote="voltage">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,108 +26,106 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="voltage-staging" >
+  <project path="build/soong" name="build_soong" remote="voltage" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-    <project path="bionic" name="bionic" remote="voltage-staging" />
-    <project path="art" name="art" remote="voltage-staging" />
-    <project path="libcore" name="libcore" remote="voltage-staging" />
-    <project path="bootable/recovery" name="bootable_recovery" remote="voltage-staging" />
+    <project path="bionic" name="bionic" remote="voltage" />
+    <project path="art" name="art" remote="voltage" />
+    <project path="libcore" name="libcore" remote="voltage" />
+    <project path="bootable/recovery" name="bootable_recovery" remote="voltage" />
 
     <!-- Device -->
-    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="voltage-staging" />
-    <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="voltage-staging" />
-    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="voltage-staging" />
-    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="voltage-staging" />
-    <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="voltage-staging" />
+    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="voltage" />
+    <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="voltage" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="voltage" />
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="voltage" />
+    <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="voltage" />
 
     <!-- Framework -->
-    <project path="frameworks/av" name="frameworks_av" remote="voltage-staging" />
-    <project path="frameworks/base" name="frameworks_base" remote="voltage-staging" />
-    <project path="frameworks/native" name="frameworks_native" remote="voltage-staging" />
-    <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage-staging" />
-    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage-staging" />
+    <project path="frameworks/av" name="frameworks_av" remote="voltage" />
+    <project path="frameworks/base" name="frameworks_base" remote="voltage" />
+    <project path="frameworks/native" name="frameworks_native" remote="voltage" />
+    <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage" />
+    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage" />
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="voltage" />
 
     <!-- Hardware -->
-    <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage-staging" />
-    <project path="hardware/voltage/interfaces" name="hardware_voltage_interfaces" remote="voltage-staging" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />
+    <project path="hardware/voltage/interfaces" name="hardware_voltage_interfaces" remote="voltage" />
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="voltage" />
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage-staging" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" />
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" revision="12-msm8996" remote="voltage" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" revision="12-msm8996" remote="voltage" />
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" revision="12-msm8996" remote="voltage" />
-    <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" revision="13-msm8998" remote="voltage-staging" />
-    <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" revision="13-msm8998" remote="voltage-staging" />
-    <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" revision="13-msm8998" remote="voltage-staging" />
-    <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="13-sm8150" remote="voltage-staging" />
-    <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="13-sm8150" remote="voltage-staging" />
-    <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="13-sm8150" remote="voltage-staging" />
+    <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" revision="13-msm8998" remote="voltage" />
+    <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" revision="13-msm8998" remote="voltage" />
+    <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" revision="13-msm8998" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="13-sm8150" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="13-sm8150" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="13-sm8150" remote="voltage" />
 
     <!-- Packages -->
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage-staging" />
-    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage-staging" />
-    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-staging" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
+    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage" />
     <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
-    <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage-staging" />
-    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage-staging" />
-    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage-staging" />
-    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="voltage-staging" />
-    <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="voltage-staging" />
-    <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="voltage-staging" />
-    <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="voltage-staging" />
-    <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="voltage-staging" />
-    <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="voltage-staging" />
-    <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="voltage-staging" />
-    <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage-staging" />
-    <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage-staging" />
-    <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage-staging" />
-    <project path="packages/apps/Etar" name="packages_apps_Etar" remote="voltage-staging" />
-    <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage-staging" />
-    <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="voltage-staging" />
-    <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage-staging" />
-    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage-staging" />
-    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage-staging" />
-    <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="voltage-staging" />
-    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage-staging" />
-    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage-staging" />
-    <project path="packages/modules/common" name="packages_modules_common" remote="voltage-staging" />
-    <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="voltage-staging" />
-    <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage-staging" />
-    <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="voltage-staging" />
-    <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="voltage-staging" />
-    <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage-staging" />
+    <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage" />
+    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage" />
+    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage" />
+    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="voltage" />
+    <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="voltage" />
+    <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="voltage" />
+    <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="voltage" />
+    <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="voltage" />
+    <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="voltage" />
+    <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="voltage" />
+    <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage" />
+    <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage" />
+    <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage" />
+    <project path="packages/apps/Etar" name="packages_apps_Etar" remote="voltage" />
+    <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage" />
+    <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="voltage" />
+    <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage" />
+    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
+    <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="voltage" />
+    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage" />
+    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage" />
+    <project path="packages/modules/common" name="packages_modules_common" remote="voltage" />
+    <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="voltage" />
+    <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage" />
+    <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="voltage" />
+    <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="voltage" />
+    <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
 
     <!-- External -->
-    <project path="external/seedvault" name="external_seedvault" remote="voltage-staging" />
+    <project path="external/seedvault" name="external_seedvault" remote="voltage" />
     <project path="external/tinyxml" name="external_tinyxml" remote="voltage" /> 
-    <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="voltage-staging" />
-    <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="voltage-staging" />
+    <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="voltage" />
+    <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
+    <project path="external/json-c" name="external_json-c" remote="voltage" />
+    <project path="external/jemalloc_new" name="external_jemalloc_new" remote="voltage" />
+    <project path="external/sqlite" name="external_sqlite" remote="voltage" />
 
     <!-- System -->
-    <project path="system/core" name="system_core" remote="voltage-staging" />
-    <project path="system/sepolicy" name="system_sepolicy" remote="voltage-staging" />
-    <project path="system/update_engine" name="system_update_engine" remote="voltage-staging" />
-    <project path="system/libhidl" name="system_libhidl" remote="voltage-staging" />
+    <project path="system/core" name="system_core" remote="voltage" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="voltage" />
+    <project path="system/update_engine" name="system_update_engine" remote="voltage" />
+    <project path="system/libhidl" name="system_libhidl" remote="voltage" />
 
     <!-- Vendor -->
-    <project path="vendor/voltage" name="vendor_voltage" remote="voltage-staging" />
-    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="voltage-staging" />
+    <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
+    <project path="vendor/ota" name="android_vendor_voltageota" remote="voltage" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="voltage" />
     <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="voltage" />
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="voltage-staging" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="voltage" />
     <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="voltage" />
-    <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage-staging" />
-    <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage-staging" />
-
-    <!-- External -->
-    <project path="external/tinycompress" name="external_tinycompress" remote="voltage-staging" />
-    <project path="external/json-c" name="external_json-c" remote="voltage-staging" />
-    <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="voltage-staging" />
-    <project path="external/sqlite" name="external_sqlite" remote="voltage-staging" />
+    <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
+    <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage" />
 
 </manifest>
