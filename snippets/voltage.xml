@@ -97,6 +97,7 @@
     <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="voltage" />
     <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage" />
     <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="voltage" />
+    <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="voltage" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="voltage" />
     <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage" />
 
@@ -117,6 +118,8 @@
     <project path="system/sepolicy" name="system_sepolicy" remote="voltage" />
     <project path="system/update_engine" name="system_update_engine" remote="voltage" />
     <project path="system/libhidl" name="system_libhidl" remote="voltage" />
+    <project path="system/netd" name="system_netd" remote="voltage" />
+    <project path="system/bpf" name="system_bpf" remote="voltage" />
 
     <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
