@@ -47,6 +47,11 @@
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/trout" />
+  <remove-project name="device/google/gs201" />
+  <remove-project name="device/google/gs201-sepolicy" />
+  <remove-project name="device/google/pantah" />
+  <remove-project name="device/google/pantah-kernel" />
+  <remove-project name="device/google/pantah-sepolicy" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
