@@ -47,6 +47,7 @@
     <project path="frameworks/av" name="frameworks_av" remote="voltage" />
     <project path="frameworks/base" name="frameworks_base" remote="voltage" />
     <project path="frameworks/native" name="frameworks_native" remote="voltage" />
+    <project path="frameworks/rs" name="frameworks_rs" remote="voltage" />
     <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage" />
     <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage" />
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="voltage" />
