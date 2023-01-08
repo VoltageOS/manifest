@@ -117,6 +117,7 @@
     <project path="external/jemalloc_new" name="external_jemalloc_new" remote="voltage" />
     <project path="external/sqlite" name="external_sqlite" remote="voltage" />
     <project path="external/faceunlock" name="voltageos/external_faceunlock" revision="13" remote="gitlab" />
+    <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="voltage" />
