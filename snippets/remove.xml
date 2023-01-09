@@ -111,6 +111,7 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>
+  <remove-project name="platform/hardware/interfaces"/>
 
   <!-- System -->
   <remove-project name="platform/system/core"/>
@@ -119,6 +120,8 @@
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/security" />
 
   <!-- External -->
   <remove-project name="platform/external/tinycompress"/>
