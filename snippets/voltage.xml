@@ -91,7 +91,6 @@
     <project path="packages/apps/Etar" name="packages_apps_Etar" remote="voltage" />
     <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage" />
     <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="voltage" />
-    <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="voltage" />
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage" />
     <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
