@@ -124,6 +124,7 @@
   <remove-project name="platform/system/security" />
 
   <!-- External -->
+  <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/external/jemalloc_new"/>
   <remove-project name="platform/external/sqlite"/>
