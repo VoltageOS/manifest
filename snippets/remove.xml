@@ -128,5 +128,6 @@
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/external/jemalloc_new"/>
   <remove-project name="platform/external/sqlite"/>
+  <remove-project name="platform/external/arm-optimized-routines" />
 
 </manifest>
