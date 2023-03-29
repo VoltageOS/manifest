@@ -4,7 +4,7 @@
 
 ### Sync ###
 ```bash
-        repo init -u https://github.com/VoltageOS/manifest.git -b 13
+        repo init -u https://github.com/VoltageOS-staging/manifest.git -b qpr2
         repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
