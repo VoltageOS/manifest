@@ -122,6 +122,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/media" />
 
   <!-- External -->
   <remove-project name="platform/external/exfatprogs" />
