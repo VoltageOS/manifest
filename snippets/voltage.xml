@@ -17,7 +17,7 @@
            fetch="https://gitlab.com/" />
 
   <!-- Build -->
-  <project path="build/make" name="build" remote="voltage-staging">
+  <project path="build/make" name="build" remote="voltage">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,15 +26,15 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="voltage-staging" >
+  <project path="build/soong" name="build_soong" remote="voltage" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-    <project path="bionic" name="bionic" remote="voltage-staging" />
+    <project path="bionic" name="bionic" remote="voltage" />
     <project path="art" name="art" remote="voltage" />
-    <project path="libcore" name="libcore" remote="voltage-staging" />
-    <project path="bootable/recovery" name="bootable_recovery" remote="voltage-staging" />
+    <project path="libcore" name="libcore" remote="voltage" />
+    <project path="bootable/recovery" name="bootable_recovery" remote="voltage" />
 
     <!-- Device -->
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="voltage" />
@@ -44,13 +44,13 @@
     <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="voltage" />
 
     <!-- Framework -->
-    <project path="frameworks/av" name="frameworks_av" remote="voltage-staging" />
-    <project path="frameworks/base" name="frameworks_base" remote="voltage-staging" />
-    <project path="frameworks/native" name="frameworks_native" remote="voltage-staging" />
+    <project path="frameworks/av" name="frameworks_av" remote="voltage" />
+    <project path="frameworks/base" name="frameworks_base" remote="voltage" />
+    <project path="frameworks/native" name="frameworks_native" remote="voltage" />
     <project path="frameworks/rs" name="frameworks_rs" remote="voltage" />
     <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage" />
-    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage-staging" />
-    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="voltage-staging" />
+    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="voltage" />
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />
@@ -69,13 +69,13 @@
     <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="13-sm8150" remote="voltage" />
 
     <!-- Packages -->
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage-staging" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage" />
-    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-staging" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage" />
     <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
-    <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage-staging" />
-    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage-staging" />
-    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage-staging" />
+    <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage" />
+    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage" />
+    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage" />
     <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="voltage" />
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="voltage" />
     <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="voltage" />
@@ -92,14 +92,14 @@
     <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage" />
     <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="voltage" />
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage" />
-    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage-staging" />
-    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage-staging" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage" />
+    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
     <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="voltage" />
-    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage-staging" />
-    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage-staging" />
-    <project path="packages/modules/common" name="packages_modules_common" remote="voltage-staging" />
-    <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="voltage-staging" />
-    <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage-staging" />
+    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voltage" />
+    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voltage" />
+    <project path="packages/modules/common" name="packages_modules_common" remote="voltage" />
+    <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="voltage" />
+    <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage" />
     <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="voltage" />
     <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="voltage" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="voltage" />
@@ -121,7 +121,7 @@
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voltage" />
 
     <!-- System -->
-    <project path="system/core" name="system_core" remote="voltage-staging" />
+    <project path="system/core" name="system_core" remote="voltage" />
     <project path="system/sepolicy" name="system_sepolicy" remote="voltage" />
     <project path="system/update_engine" name="system_update_engine" remote="voltage" />
     <project path="system/libhidl" name="system_libhidl" remote="voltage" />
@@ -132,7 +132,7 @@
     <project path="system/media" name="system_media" remote="voltage" />
 
     <!-- Vendor -->
-    <project path="vendor/voltage" name="vendor_voltage" remote="voltage-staging" />
+    <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
     <project path="vendor/ota" name="android_vendor_voltageota" remote="voltage" />
     <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="voltage" />
     <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="voltage" />
