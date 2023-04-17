@@ -51,6 +51,7 @@
     <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage" />
     <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="voltage" />
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="voltage" />
+    <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="voltage" />
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="voltage" />

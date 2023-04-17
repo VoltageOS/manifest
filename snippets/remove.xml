@@ -81,6 +81,7 @@
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/libs/modules-utils" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
