@@ -140,6 +140,5 @@
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="voltage" />
     <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="voltage" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
-    <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="voltage" />
 
 </manifest>
