@@ -131,6 +131,7 @@
     <project path="system/vold" name="system_vold" remote="voltage" />
     <project path="system/security" name="system_security" remote="voltage" />
     <project path="system/media" name="system_media" remote="voltage" />
+    <project path="system/logging" name="system_logging" remote="voltage" />
 
     <!-- Vendor -->
     <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
