@@ -105,6 +105,7 @@
     <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="voltage" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="voltage" />
     <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage" />
+    <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="voltage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="17" remote="gitlab" />
