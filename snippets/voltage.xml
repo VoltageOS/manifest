@@ -86,6 +86,7 @@
     <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="voltage" />
     <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage" />
     <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage" />
+    <project path="packages/apps/Flash" name="packages_apps_Flash" remote="voltage" />
     <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage" />
     <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="voltage" />
     <project path="packages/apps/Etar" name="packages_apps_Etar" remote="voltage" />
