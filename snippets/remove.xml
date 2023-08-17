@@ -146,5 +146,6 @@
   <remove-project name="platform/external/sqlite"/>
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
 </manifest>
