@@ -138,6 +138,7 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/logging"/>
+  <remove-project name="platform/system/timezone"/>
 
   <!-- External -->
   <remove-project name="platform/external/exfatprogs" />
