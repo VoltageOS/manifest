@@ -80,6 +80,7 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" remote="LineageOS" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="LineageOS" />
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="LineageOS" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="LineageOS" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="LineageOS" />
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" revision="lineage-20" remote="LineageOS" />
