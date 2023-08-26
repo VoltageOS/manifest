@@ -128,7 +128,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="LineageOS" />
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="LineageOS" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="LineageOS" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" revision="lineage-18.1" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,waipio-vendor" remote="LineageOS" />
 
   <remove-project name="platform/external/noto-fonts" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
