@@ -139,10 +139,4 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="LineageOS" />
   <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,waipio-vendor" remote="LineageOS" />
 
-  <remove-project name="platform/external/noto-fonts" />
-  <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
-  <remove-project name="platform/external/roboto-fonts" />
-  <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
-  <remove-project name="platform/external/google-fonts/cutive-mono" />
-
 </manifest>
