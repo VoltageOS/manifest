@@ -106,6 +106,10 @@
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="LineageOS" />
   <project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="LineageOS" />
 
+  <!-- External -->
+  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="LineageOS" />
+  <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="LineageOS" />
+
   <!-- Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
 
