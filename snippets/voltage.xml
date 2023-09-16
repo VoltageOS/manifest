@@ -103,6 +103,7 @@
     <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="voltage" />
     <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="voltage" />
     <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="voltage" />
+    <project path="packages/modules/NeuralNetworks" name="packages_modules_NeuralNetworks" remote="voltage" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="voltage" />
     <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage" />
     <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="voltage" />
