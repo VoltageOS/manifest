@@ -127,6 +127,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="voltage" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="voltage" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="voltage" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="voltage" />
 
   <!-- External -->
   <project path="external/cronet" name="external_cronet" remote="voltage" />
