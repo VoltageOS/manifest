@@ -98,6 +98,7 @@
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="voltage" />
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="voltage" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="voltage" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="voltage" />
   <project path="packages/apps/Flash" name="packages_apps_Flash" remote="voltage" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage" />
   <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage" />
@@ -140,6 +141,7 @@
   <project path="external/perfetto" name="external_perfetto" remote="voltage" />
   <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="voltage" />
+  <project path="external/seedvault" name="external_seedvault" remote="voltage" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="voltage" />
