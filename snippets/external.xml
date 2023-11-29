@@ -4,6 +4,10 @@
            fetch="https://github.com/"
            revision="lineage-21.0" />
 
+    <remote  name="TheParasiteProject"
+           fetch="https://github.com/"
+           revision="14.0" />
+  
   <!-- LineageOS additions -->
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" remote="LineageOS" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
@@ -93,4 +97,7 @@
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="LineageOS" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="LineageOS" />
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="LineageOS" />
+
+    <!-- TheParasiteProject additions -->
+    <project path="packages/apps/BtHelper" name="TheParasiteProject/packages_apps_BtHelper" remote="14.0" />
 </manifest>
