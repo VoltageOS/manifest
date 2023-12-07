@@ -160,5 +160,6 @@
   <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="voltage" />
   <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
   <project path="vendor/ota" name="android_vendor_voltageota" remote="voltage" />
+  <project path="vendor/certification" name="vendor_certification" remote="gitlab" />
 
 </manifest>
