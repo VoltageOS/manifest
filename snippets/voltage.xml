@@ -138,7 +138,6 @@
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="voltage" />
 
   <!-- External -->
-  <project path="external/cronet" name="external_cronet" remote="voltage" />
   <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="voltage" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="voltage-staging" />
   <project path="external/libnl" name="external_libnl" remote="voltage-staging" />
