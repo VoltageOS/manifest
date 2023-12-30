@@ -104,7 +104,7 @@
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="voltage-staging" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="voltage" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage" />
-  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage-staging" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-staging" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="voltage-staging" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage-staging" />
@@ -138,7 +138,7 @@
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="voltage" />
 
   <!-- External -->
-  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="voltage" />
+  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="voltage-staging" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="voltage-staging" />
   <project path="external/libnl" name="external_libnl" remote="voltage-staging" />
   <project path="external/mksh" name="external_mksh" remote="voltage-staging" />
