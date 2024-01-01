@@ -160,7 +160,6 @@
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
-  <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="voltage-staging" />
   <project path="vendor/voltage" name="vendor_voltage" remote="voltage-staging" />
   <project path="vendor/ota" name="android_vendor_voltageota" remote="voltage" />
   <project path="vendor/certification" name="vendor_certification" remote="gitlab" />
