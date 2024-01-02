@@ -39,7 +39,7 @@
 
   <!-- Device -->
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="voltage" />
-  <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="voltage" />
+  <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="voltage-staging" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="voltage-staging" />
