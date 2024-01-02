@@ -116,6 +116,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voltage" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="voltage" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="gitlab" />
+  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="voltage-staging" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="voltage-staging" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="voltage-staging" />
   <project path="packages/modules/common" name="packages_modules_common" remote="voltage-staging" />
@@ -157,6 +158,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="voltage-staging" />
   <project path="system/vold" name="system_vold" remote="voltage-staging" />
   <project path="system/update_engine" name="system_update_engine" remote="voltage-staging" />
+  <project path="system/media" name="system_media" remote="voltage-staging" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="voltage" />
