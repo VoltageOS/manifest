@@ -103,6 +103,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voltage" />
   <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="voltage" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage" />
+  <project path="packages/apps/LogViewer" name="packages_apps_LogViewer" remote="voltage" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="voltage" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage" />
   <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage" />
