@@ -87,6 +87,12 @@
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="14-sm8150" remote="voltage" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="14-sm8150" remote="voltage" />
 
+  <!-- Hardware Pixel -->
+  <project path="hardware/google/gchips" name="hardware_google_gchips" remote="voltage" />
+  <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" remote="voltage" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="voltage" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="voltage" />
+
   <!-- Inline kernel build -->
   <project path="prebuilts/clang/host/linux-x86/trb_clang" name="clang" revision="test" remote="gitlab" />
 

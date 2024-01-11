@@ -80,7 +80,6 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
-  <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="kernel/configs" />
@@ -112,6 +111,10 @@
   <remove-project name="platform/hardware/libhardware"/>
   <remove-project name="platform/hardware/qcom/wlan"/>
   <remove-project name="platform/hardware/interfaces"/>
+  <remove-project name="platform/hardware/google/gchips" />
+  <remove-project name="platform/hardware/google/graphics/common" />
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
