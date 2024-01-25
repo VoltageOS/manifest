@@ -17,6 +17,10 @@
            revision="14"
            fetch="https://gitlab.com/VoltageOS" />
 
+  <remote  name="bitbucket"
+           revision="14"
+           fetch="https://bitbucket.org/shuttercat" />
+
   <!-- Build -->
   <project path="build/make" name="build" remote="voltage">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -94,7 +98,7 @@
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="voltage" />
 
   <!-- Inline kernel build -->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="clang" revision="test" remote="gitlab" />
+  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="clang" remote="bitbucket" />
 
   <!-- Packages -->
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="voltage" />
