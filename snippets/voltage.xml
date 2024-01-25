@@ -116,6 +116,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="voltage" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage" />
   <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage" />
+  <project path="packages/apps/Pif" name="packages_apps_Pif" remote="voltage" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="voltage" />
