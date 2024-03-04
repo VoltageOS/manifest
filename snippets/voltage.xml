@@ -152,7 +152,6 @@
   <project path="external/mksh" name="external_mksh" remote="voltage" />
   <project path="external/perfetto" name="external_perfetto" remote="voltage" />
   <project path="external/tinycompress" name="external_tinycompress" remote="voltage" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="voltage" />
   <project path="external/seedvault" name="external_seedvault" remote="voltage" />
 
   <!-- System -->

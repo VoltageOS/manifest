@@ -15,6 +15,7 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="LineageOS" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="LineageOS" />
   <project path="external/cronet" name="LineageOS/android_external_cronet" groups="pdk" remote="LineageOS" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
