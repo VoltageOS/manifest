@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="vos"
-           revision="15"
+           revision="15-qpr1"
            fetch="https://github.com/VoltageOS" />
 
   <remote  name="gitlab"
-           revision="15"
+           revision="15-qpr1"
            fetch="https://gitlab.com/voltageos" />
 
   <!-- Build -->
@@ -53,8 +53,11 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="vos" />
   <project path="external/setupcompat" name="external_setupcompat" remote="vos" />
   <project path="external/tinycompress" name="external_tinycompress" remote="vos" />
-  <project path="external/tigervnc" name="external_tigervnc" groups="pdk" remote="vos" />
+  <!-- <project path="external/tigervnc" name="external_tigervnc" groups="pdk" remote="vos" /> -->
   <project path="external/talkback" name="external_talkback" remote="vos" />
+  <project path="external/kotlinx.serialization" name="external_kotlinx.serialization" remote="vos" />
+  <project path="external/kotlinx.coroutines" name="external_kotlinx.coroutines" remote="vos" />
+  <project path="external/kotlinc" name="external_kotlinc" remote="vos" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="vos" />
@@ -117,7 +120,6 @@
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="vos" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vos" />
   <project path="packages/apps/Covers" name="packages_apps_Covers" remote="vos" />
-  <project path="packages/apps/CustomDoze" name="packages_apps_CustomDoze" remote="vos" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vos" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vos" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="vos" />
@@ -142,7 +144,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="vos" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="vos" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" />
-  <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="vos" />
+  <!-- <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="vos" /> -->
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="vos" />
   <project path="packages/modules/common" name="packages_modules_common" remote="vos" />
@@ -165,7 +167,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gitlab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" />
-  <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="vos" />
+  <!-- <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="vos" /> -->
 
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="vos" />
@@ -190,7 +192,6 @@
   <project path="tools/extract-utils" name="tools_extract-utils" remote="vos" />
 
   <!-- Vendor -->
-  <project path="vendor/certification" name="vendor_certification" remote="gitlab" />
   <project path="vendor/lineage_compat" name="vendor_lineage_compat" remote="vos" />
   <project path="vendor/ota" name="android_vendor_voltageota" remote="vos" />
   <project path="vendor/support" name="vendor_support" remote="vos" />
