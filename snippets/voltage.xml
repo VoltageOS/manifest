@@ -106,6 +106,7 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="15-sm8150" remote="vos" />
 
   <!-- Hardware Pixel -->
   <project path="hardware/google/gchips" name="hardware_google_gchips" remote="vos" />
