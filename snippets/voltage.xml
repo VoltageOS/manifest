@@ -126,6 +126,7 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="vos" />
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="vos" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="vos" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="vos" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="vos" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="vos" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="vos" />
