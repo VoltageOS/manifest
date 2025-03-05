@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="vos"
-           revision="15-qpr1"
-           fetch="https://github.com/VoltageOS" />
+           revision="15-qpr2"
+           fetch="https://github.com/VoltageOS-staging" />
 
   <remote  name="gitlab"
-           revision="15-qpr1"
+           revision="15-qpr2"
            fetch="https://gitlab.com/voltageos" />
 
   <!-- Build -->
@@ -28,7 +28,7 @@
   <project path="bionic" name="bionic" remote="vos" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="vos" />
   <project path="bootable/recovery" name="bootable_recovery" remote="vos" />
-  <project path="development" name="development" remote="vos" />
+  <!-- <project path="development" name="development" remote="vos" /> -->
   <project path="libcore" name="libcore" remote="vos" />
 
   <!-- Device -->
@@ -136,10 +136,11 @@
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="vos" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vos" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vos" />
-  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="vos" />
+  <project path="packages/apps/NetworkLocation" name="packages_apps_NetworkLocation" remote="vos" />
+  <!-- <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="vos" /> -->
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="gitlab" />
   <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="vos" />
-  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="vos" />
+  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="vos" /> 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vos" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="vos" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="vos" />
@@ -148,6 +149,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" />
   <!-- <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="vos" /> -->
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" />
+  <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="vos" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="vos" />
   <project path="packages/modules/common" name="packages_modules_common" remote="vos" />
   <project path="packages/modules/ConfigInfrastructure" name="packages_modules_ConfigInfrastructure" remote="vos" />
@@ -164,7 +166,7 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="vos" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vos" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vos" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="vos" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="vos" /> -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="vos" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gitlab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" />
