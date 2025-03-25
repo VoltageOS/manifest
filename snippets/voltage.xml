@@ -58,6 +58,7 @@
   <project path="external/kotlinx.serialization" name="external_kotlinx.serialization" remote="vos" />
   <project path="external/kotlinx.coroutines" name="external_kotlinx.coroutines" remote="vos" />
   <project path="external/kotlinc" name="external_kotlinc" remote="vos" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="vos" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="vos" />
@@ -106,7 +107,7 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="15-sm8150" remote="vos" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="vos" />
 
   <!-- Hardware Pixel -->
   <project path="hardware/google/gchips" name="hardware_google_gchips" remote="vos" />
@@ -144,9 +145,11 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vos" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="vos" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="vos" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="vos" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="vos" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="vos" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="vos" />
   <!-- <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="vos" /> -->
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" />
   <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="vos" />

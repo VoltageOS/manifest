@@ -88,6 +88,7 @@
   <remove-project name="platform/external/kotlinc" />
   <remove-project name="platform/external/kotlinx.coroutines" />
   <remove-project name="platform/external/kotlinx.serialization" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/av" />
@@ -127,6 +128,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/AppSearch"/>
   <remove-project name="platform/packages/modules/Bluetooth"/>
