@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-15.0.0_r26"
-           remote="aosp"
-           sync-j="4" />
+   <remote  name="vos"
+            revision="refs/heads/15-qpr2"
+            fetch="https://github.com/VoltageOS"
+            sync-c="true"
+            sync-j="4" />
+
+   <remote  name="gitlab"
+            revision="refs/heads/15-qpr2"
+            fetch="https://gitlab.com/voltageos"
+            sync-c="true"
+            sync-j="4" />
+
+   <remote  name="aosp"
+            fetch="https://android.googlesource.com"
+            review="https://android-review.googlesource.com/" />
+   <default revision="refs/tags/android-15.0.0_r26"
+            remote="aosp"
+            sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r26"/>
   <contactinfo bugurl="go/repo-bug" />

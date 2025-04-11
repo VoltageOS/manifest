@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="vos"
-           revision="15-qpr2"
-           fetch="https://github.com/VoltageOS-staging" />
-
-  <remote  name="gitlab"
-           revision="15-qpr2"
-           fetch="https://gitlab.com/voltageos" />
 
   <!-- Build -->
-  <project path="build/blueprint" name="build_blueprint" remote="vos" />
-  <project path="build/make" name="build" remote="vos" >
+  <project path="build/blueprint" name="build_blueprint" remote="vos" revision="15-qpr2" />
+  <project path="build/make" name="build" remote="vos" revision="15-qpr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -19,68 +12,68 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="vos" >
+  <project path="build/soong" name="build_soong" remote="vos" revision="15-qpr2" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="art" name="art" remote="vos" />
-  <project path="bionic" name="bionic" remote="vos" />
-  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="vos" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="vos" />
-  <!-- <project path="development" name="development" remote="vos" /> -->
-  <project path="libcore" name="libcore" remote="vos" />
+  <project path="art" name="art" remote="vos" revision="15-qpr2" />
+  <project path="bionic" name="bionic" remote="vos" revision="15-qpr2" />
+  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="vos" revision="15-qpr2" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="vos" revision="15-qpr2" />
+  <!-- <project path="development" name="development" remote="vos" revision="15-qpr2" /> -->
+  <project path="libcore" name="libcore" remote="vos" revision="15-qpr2" />
 
   <!-- Device -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vos" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="vos" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" remote="vos" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr_sm8450" remote="vos" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr_sm8550" remote="vos" />
-  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="vos" />
-  <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="vos" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vos" revision="15-qpr2" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="vos" revision="15-qpr2" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" remote="vos" revision="15-qpr2" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr_sm8450" remote="vos" revision="15-qpr2" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr_sm8550" remote="vos" revision="15-qpr2" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="vos" revision="15-qpr2" />
+  <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="vos" revision="15-qpr2" />
 
   <!-- External -->
-  <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="vos" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="vos" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" />
-  <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="vos" />
-  <project path="external/dtc" name="external_dtc" remote="vos" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vos" />
-  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="vos" />
-  <project path="external/gptfdisk" name="external_gptfdisk" remote="vos" />
-  <project path="external/json-c" name="external_json-c" remote="vos" />
-  <project path="external/mksh" name="external_mksh" remote="vos" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="vos" />
-  <project path="external/setupcompat" name="external_setupcompat" remote="vos" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="vos" />
-  <!-- <project path="external/tigervnc" name="external_tigervnc" groups="pdk" remote="vos" /> -->
-  <project path="external/talkback" name="external_talkback" remote="vos" />
-  <project path="external/kotlinx.serialization" name="external_kotlinx.serialization" remote="vos" />
-  <project path="external/kotlinx.coroutines" name="external_kotlinx.coroutines" remote="vos" />
-  <project path="external/kotlinc" name="external_kotlinc" remote="vos" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="vos" />
+  <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="vos" revision="15-qpr2" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="vos" revision="15-qpr2" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" revision="15-qpr2" />
+  <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="vos" revision="15-qpr2" />
+  <project path="external/dtc" name="external_dtc" remote="vos" revision="15-qpr2" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vos" revision="15-qpr2" />
+  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="vos" revision="15-qpr2" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="vos" revision="15-qpr2" />
+  <project path="external/json-c" name="external_json-c" remote="vos" revision="15-qpr2" />
+  <project path="external/mksh" name="external_mksh" remote="vos" revision="15-qpr2" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="vos" revision="15-qpr2" />
+  <project path="external/setupcompat" name="external_setupcompat" remote="vos" revision="15-qpr2" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="vos" revision="15-qpr2" />
+  <!-- <project path="external/tigervnc" name="external_tigervnc" groups="pdk" remote="vos" revision="15-qpr2" /> -->
+  <project path="external/talkback" name="external_talkback" remote="vos" revision="15-qpr2" />
+  <project path="external/kotlinx.serialization" name="external_kotlinx.serialization" remote="vos" revision="15-qpr2" />
+  <project path="external/kotlinx.coroutines" name="external_kotlinx.coroutines" remote="vos" revision="15-qpr2" />
+  <project path="external/kotlinc" name="external_kotlinc" remote="vos" revision="15-qpr2" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="vos" revision="15-qpr2" />
 
   <!-- Framework -->
-  <project path="frameworks/av" name="frameworks_av" remote="vos" />
-  <project path="frameworks/base" name="frameworks_base_new" remote="vos" />
-  <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="vos" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="vos" />
-  <project path="frameworks/native" name="frameworks_native" remote="vos" />
-  <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="vos" />
-  <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="vos" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vos" />
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="vos" />
+  <project path="frameworks/av" name="frameworks_av" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/base" name="frameworks_base_new" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/native" name="frameworks_native" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vos" revision="15-qpr2" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="vos" revision="15-qpr2" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="vos" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="vos" />
-  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="vos" />
-  <project path="hardware/lineage/interfaces" name="hardware_voltage_interfaces" remote="vos" />
-  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="vos" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="vos" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="vos" />
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="vos" >
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="vos" revision="15-qpr2" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vos" revision="15-qpr2" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="vos" revision="15-qpr2" />
+  <project path="hardware/lineage/interfaces" name="hardware_voltage_interfaces" remote="vos" revision="15-qpr2" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="vos" revision="15-qpr2" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="vos" revision="15-qpr2" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="vos" revision="15-qpr2" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="vos" revision="15-qpr2" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -109,103 +102,103 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="15-sm8150" remote="vos" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="vos" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="vos" revision="15-qpr2" />
 
   <!-- Hardware Pixel -->
-  <project path="hardware/google/gchips" name="hardware_google_gchips" remote="vos" />
-  <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" remote="vos" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="vos" />
-  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="vos" />
+  <project path="hardware/google/gchips" name="hardware_google_gchips" remote="vos" revision="15-qpr2" />
+  <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" remote="vos" revision="15-qpr2" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="vos" revision="15-qpr2" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="vos" revision="15-qpr2" />
 
   <!-- Kernel -->
-  <project path="kernel/configs" name="kernel_configs" remote="vos" />
+  <project path="kernel/configs" name="kernel_configs" remote="vos" revision="15-qpr2" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="vos" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vos" />
-  <project path="packages/apps/Covers" name="packages_apps_Covers" remote="vos" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vos" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vos" />
-  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="vos" />
-  <project path="packages/apps/Etar" name="packages_apps_Etar" remote="vos" />
-  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="vos" />
-  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="vos" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="vos" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="vos" />
-  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="vos" />
-  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="vos" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vos" />
-  <project path="packages/apps/LogViewer" name="packages_apps_LogViewer" remote="vos" />
-  <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="vos" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vos" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vos" />
-  <project path="packages/apps/NetworkLocation" name="packages_apps_NetworkLocation" remote="vos" />
-  <!-- <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="vos" /> -->
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Covers" name="packages_apps_Covers" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Etar" name="packages_apps_Etar" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/LogViewer" name="packages_apps_LogViewer" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/NetworkLocation" name="packages_apps_NetworkLocation" remote="vos" revision="15-qpr2" />
+  <!-- <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="vos" revision="15-qpr2" /> -->
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="gitlab" />
-  <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="vos" />
-  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="vos" /> 
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vos" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="vos" />
-  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="vos" />
-  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="vos" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="vos" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="vos" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" />
-  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="vos" />
-  <!-- <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="vos" /> -->
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" />
-  <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="vos" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="vos" />
-  <project path="packages/modules/common" name="packages_modules_common" remote="vos" />
-  <project path="packages/modules/ConfigInfrastructure" name="packages_modules_ConfigInfrastructure" remote="vos" />
+  <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="vos" revision="15-qpr2" /> 
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="vos" revision="15-qpr2" />
+  <!-- <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="vos" revision="15-qpr2" /> -->
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/common" name="packages_modules_common" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/ConfigInfrastructure" name="packages_modules_ConfigInfrastructure" remote="vos" revision="15-qpr2" />
   <project path="packages/modules/Connectivity" name="packages_modules_connectivity" remote="gitlab" />
-  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="vos" />
-  <project path="packages/modules/HealthFitness" name="packages_modules_HealthFitness" remote="vos" />
-  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="vos" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="vos" />
-  <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="vos" />  
-  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="vos" />
-  <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="vos" />
-  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="vos" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="vos" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="vos" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vos" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vos" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="vos" /> -->
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="vos" />
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/HealthFitness" name="packages_modules_HealthFitness" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="vos" revision="15-qpr2" />  
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="vos" revision="15-qpr2" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="vos" revision="15-qpr2" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vos" revision="15-qpr2" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vos" revision="15-qpr2" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="vos" revision="15-qpr2" /> -->
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="vos" revision="15-qpr2" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gitlab" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" />
-  <!-- <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="vos" /> -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" revision="15-qpr2" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" revision="15-qpr2" />
+  <!-- <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="vos" revision="15-qpr2" /> -->
 
   <!-- Prebuilts -->
-  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="vos" />
-  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="vos" />
+  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="vos" revision="15-qpr2" />
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="vos" revision="15-qpr2" />
 
   <!-- System -->
-  <project path="system/bpf" name="system_bpf" remote="vos" />
-  <project path="system/core" name="system_core" remote="vos" />
-  <project path="system/extras" name="system_extras" remote="vos" />
-  <project path="system/keymaster" name="system_keymaster" remote="vos" />
-  <project path="system/libhidl" name="system_libhidl" remote="vos" />
-  <project path="system/librustutils" name="system_librustutils" remote="vos" />
-  <project path="system/media" name="system_media" remote="vos" />
-  <project path="system/netd" name="system_netd" remote="vos" />
-  <project path="system/security" name="system_security" remote="vos" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="vos" />
-  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="vos" />
-  <project path="system/update_engine" name="system_update_engine" remote="vos" />
-  <project path="system/vold" name="system_vold" remote="vos" />
+  <project path="system/bpf" name="system_bpf" remote="vos" revision="15-qpr2" />
+  <project path="system/core" name="system_core" remote="vos" revision="15-qpr2" />
+  <project path="system/extras" name="system_extras" remote="vos" revision="15-qpr2" />
+  <project path="system/keymaster" name="system_keymaster" remote="vos" revision="15-qpr2" />
+  <project path="system/libhidl" name="system_libhidl" remote="vos" revision="15-qpr2" />
+  <project path="system/librustutils" name="system_librustutils" remote="vos" revision="15-qpr2" />
+  <project path="system/media" name="system_media" remote="vos" revision="15-qpr2" />
+  <project path="system/netd" name="system_netd" remote="vos" revision="15-qpr2" />
+  <project path="system/security" name="system_security" remote="vos" revision="15-qpr2" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="vos" revision="15-qpr2" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="vos" revision="15-qpr2" />
+  <project path="system/update_engine" name="system_update_engine" remote="vos" revision="15-qpr2" />
+  <project path="system/vold" name="system_vold" remote="vos" revision="15-qpr2" />
 
   <!-- Tools -->
-  <project path="tools/extract-utils" name="tools_extract-utils" remote="vos" />
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="vos" revision="15-qpr2" />
 
   <!-- Vendor -->
-  <project path="vendor/lineage_compat" name="vendor_lineage_compat" remote="vos" />
-  <project path="vendor/ota" name="android_vendor_voltageota" remote="vos" />
-  <project path="vendor/support" name="vendor_support" remote="vos" />
-  <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="vos" />
-  <project path="vendor/voltage-priv/keys" name="vendor_voltage-priv_keys" remote="vos" />
-  <project path="vendor/voltage" name="vendor_voltage" remote="vos" />
+  <project path="vendor/lineage_compat" name="vendor_lineage_compat" remote="vos" revision="15-qpr2" />
+  <project path="vendor/ota" name="android_vendor_voltageota" remote="vos" revision="15-qpr2" />
+  <project path="vendor/support" name="vendor_support" remote="vos" revision="15-qpr2" />
+  <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="vos" revision="15-qpr2" />
+  <project path="vendor/voltage-priv/keys" name="vendor_voltage-priv_keys" remote="vos" revision="15-qpr2" />
+  <project path="vendor/voltage" name="vendor_voltage" remote="vos" revision="15-qpr2" />
 
 </manifest>
