@@ -16,6 +16,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/release" name="build_release" remote="vos" revision="15-qpr2" />
 
   <project path="art" name="art" remote="vos" revision="15-qpr2" />
   <project path="bionic" name="bionic" remote="vos" revision="15-qpr2" />
