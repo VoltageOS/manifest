@@ -169,6 +169,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vos" revision="15-qpr2" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="vos" revision="15-qpr2" /> -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="vos" revision="15-qpr2" />
+  <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="vos" revision="15-qpr2" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gitlab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" revision="15-qpr2" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" revision="15-qpr2" />
