@@ -196,6 +196,7 @@
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="vos" revision="15-qpr2" />
+  <project path="tools/metalava" name="tools_metalava" remote="vos" revision="15-qpr2" />
 
   <!-- Vendor -->
   <project path="vendor/lineage_compat" name="vendor_lineage_compat" remote="vos" revision="15-qpr2" />
