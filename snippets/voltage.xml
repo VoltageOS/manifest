@@ -35,6 +35,7 @@
   <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="vos" revision="15-qpr2" />
 
   <!-- External -->
+  <project path="external/AppCompatConfig" name="external_AppCompatConfig" remote="vos" revision="15-qpr2" />
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="vos" revision="15-qpr2" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="vos" revision="15-qpr2" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" revision="15-qpr2" />
@@ -115,6 +116,7 @@
   <project path="kernel/configs" name="kernel_configs" remote="vos" revision="15-qpr2" />
 
   <!-- Packages -->
+  <project path="packages/apps/AppCompatConfig" name="packages_apps_AppCompatConfig" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/Covers" name="packages_apps_Covers" remote="vos" revision="15-qpr2" />
