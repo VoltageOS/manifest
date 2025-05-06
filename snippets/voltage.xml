@@ -188,6 +188,7 @@
   <project path="system/librustutils" name="system_librustutils" remote="vos" revision="15-qpr2" />
   <project path="system/media" name="system_media" remote="vos" revision="15-qpr2" />
   <project path="system/netd" name="system_netd" remote="vos" revision="15-qpr2" />
+  <project path="system/nfc" name="system_nfc" remote="vos" revision="15-qpr2" />
   <project path="system/security" name="system_security" remote="vos" revision="15-qpr2" />
   <project path="system/sepolicy" name="system_sepolicy" remote="vos" revision="15-qpr2" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="vos" revision="15-qpr2" />
