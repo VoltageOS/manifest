@@ -172,6 +172,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gitlab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" revision="15-qpr2" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" revision="15-qpr2" />
+  <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="vos" revision="15-qpr2" />
   <!-- <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="vos" revision="15-qpr2" /> -->
 
   <!-- Prebuilts -->
