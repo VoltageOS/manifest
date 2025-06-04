@@ -123,6 +123,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="vos" revision="15-qpr2" />
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="vos" revision="15-qpr2" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="vos" revision="15-qpr2" />
