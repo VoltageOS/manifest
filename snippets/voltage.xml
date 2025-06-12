@@ -39,6 +39,7 @@
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="vos" revision="15-qpr2" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" revision="15-qpr2" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="vos" revision="15-qpr2" />
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="vos" revision="15-qpr2" />
   <project path="external/dtc" name="external_dtc" remote="vos" revision="15-qpr2" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vos" revision="15-qpr2" />
   <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="vos" revision="15-qpr2" />

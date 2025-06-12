@@ -78,6 +78,7 @@
   <remove-project name="device/sample" />
 
   <!-- External -->
+  <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
