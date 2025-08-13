@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <project path="build/blueprint" name="build_blueprint" remote="vos" revision="16" />
+  <project path="build/make" name="build" remote="vos" revision="16" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="vos" revision="16" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="art" name="art" remote="vos" revision="16" />
+  <project path="bionic" name="bionic" remote="vos" revision="16" />
+  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="vos" revision="16" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="vos" revision="16" />
+  <project path="libcore" name="libcore" remote="vos" revision="16" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vos" revision="16" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="vos" revision="16" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" remote="vos" revision="16" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr_sm8450" remote="vos" revision="16" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr_sm8550" remote="vos" revision="16" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="vos" revision="16" />
+  <project path="device/qcom/sepolicy_vndr/sm8750" name="device_qcom_sepolicy_vndr_sm8750" remote="vos" revision="16" />
+  <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="vos" revision="16" />
+
+  <!-- External -->
+  <project path="external/AppCompatConfig" name="external_AppCompatConfig" remote="vos" revision="16" />
+  <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="vos" revision="16" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="vos" revision="16" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" revision="16" />
+  <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="vos" revision="16" />
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="vos" revision="16" />
+  <project path="external/dtc" name="external_dtc" remote="vos" revision="16" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vos" revision="16" />
+  <project path="external/external_v4l-utils" name="external_v4l-utils" remote="vos" revision="16" />
+  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="vos" revision="16" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="vos" revision="16" />
+  <project path="external/json-c" name="external_json-c" remote="vos" revision="16" />
+  <project path="external/mksh" name="external_mksh" remote="vos" revision="16" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="vos" revision="16" />
+  <project path="external/setupcompat" name="external_setupcompat" remote="vos" revision="16" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="vos" revision="16" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="vos" revision="16" />
+
+  <!-- Framework -->
+  <project path="frameworks/av" name="frameworks_av" remote="vos" revision="16" />
+  <project path="frameworks/base" name="frameworks_base_new" remote="vos" revision="16" />
+  <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="vos" revision="16" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="vos" revision="16" />
+  <project path="frameworks/native" name="frameworks_native" remote="vos" revision="16" />
+  <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="vos" revision="16" />
+  <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="vos" revision="16" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="vos" revision="16" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vos" revision="16" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="vos" revision="16" />
+
+  <!-- Hardware -->
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="vos" revision="16" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="vos" revision="16" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vos" revision="16" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="vos" revision="16" />
+  <project path="hardware/lineage/interfaces" name="hardware_voltage_interfaces" remote="vos" revision="16" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="vos" revision="16" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="vos" revision="16" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="vos" revision="16" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="vos" revision="16" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8750/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
+  </project>
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="16-sm8150" remote="vos" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="vos" revision="16" />
+
+  <!-- Kernel -->
+  <project path="kernel/configs" name="kernel_configs" remote="vos" />
+
+  <!-- Packages -->
+  <project path="packages/apps/AppCompatConfig" name="packages_apps_AppCompatConfig" remote="vos" revision="16" />
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="vos" revision="16" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vos" revision="16" />
+  <project path="packages/apps/Covers" name="packages_apps_Covers" remote="vos" revision="16" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vos" revision="16" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vos" revision="16" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="vos" revision="16" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="vos" revision="16" />
+  <project path="packages/apps/Etar" name="packages_apps_Etar" remote="vos" revision="16" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="vos" revision="16" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="vos" revision="16" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="vos" revision="16" />
+  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="vos" revision="16" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="vos" revision="16" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vos" revision="16" />
+  <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="vos" revision="16" />
+  <project path="packages/apps/LogViewer" name="packages_apps_LogViewer" remote="vos" revision="16" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vos" revision="16" />
+  <project path="packages/apps/NetworkLocation" name="packages_apps_NetworkLocation" remote="vos" revision="16" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="gitlab" />
+  <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="vos" revision="16" />
+  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="vos" revision="16" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vos" revision="16" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="vos" revision="16" /> 
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="vos" revision="16" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="vos" revision="16" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="vos" revision="16" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="vos" revision="16" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" revision="16" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="vos" revision="16" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" revision="16" />
+  <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="vos" revision="16" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="vos" revision="16" />
+  <project path="packages/modules/common" name="packages_modules_common" remote="vos" revision="16" />
+  <project path="packages/modules/ConfigInfrastructure" name="packages_modules_ConfigInfrastructure" remote="vos" revision="16" />
+  <project path="packages/modules/Connectivity" name="packages_modules_connectivity" remote="gitlab" />
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="vos" revision="16" />
+  <project path="packages/modules/HealthFitness" name="packages_modules_HealthFitness" remote="vos" revision="16" />
+  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="vos" revision="16" />
+  <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="vos" revision="16" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="vos" revision="16" />
+  <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="vos" revision="16" />  
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="vos" revision="16" />
+  <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="vos" revision="16" />
+  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="vos" revision="16" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="vos" revision="16" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="vos" revision="16" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vos" revision="16" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vos" revision="16" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="vos" revision="16" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="vos" revision="16" />
+  <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="vos" revision="16" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gitlab" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" revision="16" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" revision="16" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="vos" revision="16" />
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="vos" revision="16" />
+
+  <!-- System -->
+  <project path="system/bpf" name="system_bpf" remote="vos" revision="16" />
+  <project path="system/core" name="system_core" remote="vos" revision="16" />
+  <project path="system/extras" name="system_extras" remote="vos" revision="16" />
+  <project path="system/keymaster" name="system_keymaster" remote="vos" revision="16" />
+  <project path="system/libhidl" name="system_libhidl" remote="vos" revision="16" />
+  <project path="system/librustutils" name="system_librustutils" remote="vos" revision="16" />
+  <project path="system/media" name="system_media" remote="vos" revision="16" />
+  <project path="system/netd" name="system_netd" remote="vos" revision="16" />
+  <project path="system/security" name="system_security" remote="vos" revision="16" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="vos" revision="16" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="vos" revision="16" />
+  <project path="system/update_engine" name="system_update_engine" remote="vos" revision="16" />
+  <project path="system/vold" name="system_vold" remote="vos" revision="16" />
+
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="vos" revision="16" />
+  <project path="tools/metalava" name="tools_metalava" remote="vos" revision="16" />
+
+  <!-- Vendor -->
+  <project path="vendor/lineage_compat" name="vendor_lineage_compat" remote="vos" revision="16" />
+  <project path="vendor/support" name="vendor_support" remote="vos" revision="16" />
+  <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="vos" revision="16" />
+  <project path="vendor/voltage" name="vendor_voltage" remote="vos" revision="16" />
+  <project path="vendor/voltage-priv/keys" name="vendor_voltage-priv_keys" remote="vos" revision="16" />
+  <project path="vendor/ota" name="android_vendor_voltageota" remote="vos" revision="16" />
+
+</manifest>
