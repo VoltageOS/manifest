@@ -141,6 +141,7 @@
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="vos" revision="16" />
   <project path="packages/modules/HealthFitness" name="packages_modules_HealthFitness" remote="vos" revision="16" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="vos" revision="16" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="vos" revision="16" />
   <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="vos" revision="16" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="vos" revision="16" />
   <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="vos" revision="16" />  

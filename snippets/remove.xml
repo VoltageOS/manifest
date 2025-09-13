@@ -68,6 +68,7 @@
   <remove-project name="platform/packages/modules/DnsResolver"/>
   <remove-project name="platform/packages/modules/HealthFitness"/>
   <remove-project name="platform/packages/modules/NetworkStack"/>
+  <remove-project name="platform/packages/modules/IntentResolver"/>
   <remove-project name="platform/packages/modules/Nfc"/>
   <remove-project name="platform/packages/modules/Permission"/>
   <remove-project name="platform/packages/modules/RemoteKeyProvisioning"/>
