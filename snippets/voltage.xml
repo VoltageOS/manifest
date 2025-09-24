@@ -73,8 +73,6 @@
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="vos" revision="16" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="vos" revision="16" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="vos" revision="16" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
