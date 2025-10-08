@@ -12,6 +12,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/release" name="build_release" remote="vos" revision="16" />
   <project path="build/soong" name="build_soong" remote="vos" revision="16" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -63,6 +64,7 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="vos" revision="16" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vos" revision="16" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="vos" revision="16" />
+  <project path="frameworks/proto_logging" name="frameworks_proto_logging" remote="vos" revision="16" />
 
   <!-- Hardware -->
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="vos" revision="16" />
@@ -124,6 +126,7 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="vos" revision="16" /> 
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="vos" revision="16" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="vos" revision="16" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="vos" revision="16" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="vos" revision="16" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="vos" revision="16" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" revision="16" />
@@ -161,6 +164,7 @@
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="vos" revision="16" />
 
   <!-- System -->
+  <project path="system/apex" name="system_apex" remote="vos" revision="16" />
   <project path="system/bpf" name="system_bpf" remote="vos" revision="16" />
   <project path="system/core" name="system_core" remote="vos" revision="16" />
   <project path="system/extras" name="system_extras" remote="vos" revision="16" />
