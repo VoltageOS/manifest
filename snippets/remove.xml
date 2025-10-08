@@ -73,6 +73,7 @@
   <remove-project name="platform/packages/modules/Permission"/>
   <remove-project name="platform/packages/modules/RemoteKeyProvisioning"/>
   <remove-project name="platform/packages/modules/StatsD"/>
+  <remove-project name="platform/packages/modules/UprobeStats"/>
   <remove-project name="platform/packages/modules/Uwb"/>
   <remove-project name="platform/packages/modules/Virtualization"/>
   <remove-project name="platform/packages/modules/Wifi"/>

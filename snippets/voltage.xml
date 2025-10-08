@@ -142,6 +142,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="vos" revision="16" />
   <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="vos" revision="16" />  
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="vos" revision="16" />
+  <project path="packages/modules/UprobeStats" name="packages_modules_UprobeStats" remote="vos" revision="16" />
   <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="vos" revision="16" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="vos" revision="16" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="vos" revision="16" />
