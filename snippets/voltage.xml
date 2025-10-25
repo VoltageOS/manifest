@@ -176,6 +176,7 @@
   <project path="system/security" name="system_security" remote="vos" revision="16" />
   <project path="system/sepolicy" name="system_sepolicy" remote="vos" revision="16" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="vos" revision="16" />
+  <project path="system/tools/aidl" name="system_tools_aidl" remote="vos" revision="16" />
   <project path="system/update_engine" name="system_update_engine" remote="vos" revision="16" />
   <project path="system/vold" name="system_vold" remote="vos" revision="16" />
 
