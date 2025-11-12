@@ -185,6 +185,7 @@
   <project path="tools/metalava" name="tools_metalava" remote="vos" revision="16" />
 
   <!-- Vendor -->
+  <project path="vendor/apn" name="vendor_apn" remote="vos" revision="16" />
   <project path="vendor/lineage_compat" name="vendor_lineage_compat" remote="vos" revision="16" />
   <project path="vendor/support" name="vendor_support" remote="vos" revision="16" />
   <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="vos" revision="16" />
