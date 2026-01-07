@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+   <remote  name="vos"
+            revision="refs/heads/16.2"
+            fetch="https://github.com/VoltageOS"
+            sync-c="true"
+            sync-j="4" />
+
+   <remote  name="gitlab"
+            revision="refs/heads/16.2"
+            fetch="https://gitlab.com/voltageos"
+            sync-c="true"
+            sync-j="4" />
+
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-16.0.0_r4"
            remote="aosp"
@@ -1040,6 +1052,11 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
+
+  <!-- VoltageOS -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/voltage.xml" />
+
   <!-- END open-source projects -->
 
 </manifest>
