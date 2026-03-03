@@ -100,6 +100,7 @@
   <!-- Packages -->
   <project path="packages/apps/AppCompatConfig" name="packages_apps_AppCompatConfig" remote="vos" revision="16.2" />
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="vos" revision="16.2" />
+  <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="vos" revision="16.2" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vos" revision="16.2" />
   <project path="packages/apps/Covers" name="packages_apps_Covers" remote="vos" revision="16.2" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vos" revision="16.2" />
