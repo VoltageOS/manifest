@@ -38,6 +38,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/st/nfc" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Kernel -->
@@ -74,6 +75,7 @@
   <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/packages/modules/UprobeStats" />
   <remove-project name="platform/packages/modules/Uwb" />
+  <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
