@@ -133,6 +133,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="vos" revision="16.2" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="vos" revision="16.2" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" revision="16.2" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="vos" revision="16.2" />
   <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="vos" revision="16.2" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="vos" revision="16.2" />
   <project path="packages/modules/common" name="packages_modules_common" remote="vos" revision="16.2" />
