@@ -20,8 +20,10 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libjxl" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/setupcompat" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
@@ -48,11 +50,13 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
