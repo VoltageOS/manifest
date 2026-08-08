@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="vos"
+           revision="refs/heads/17"
+           fetch="https://github.com/VoltageOS"
+           sync-c="true"
+           sync-j="4" />
+  <remote  name="gitlab"
+           revision="refs/heads/17"
+           fetch="https://gitlab.com/voltageos"
+           sync-c="true"
+           sync-j="4" />
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
@@ -662,7 +672,6 @@
   <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk" />
@@ -1116,4 +1125,7 @@
   </project>
   <!-- END open-source projects -->
 
+  <!-- VoltageOS -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/voltage.xml" />
 </manifest>
