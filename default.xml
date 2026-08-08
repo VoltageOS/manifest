@@ -1126,6 +1126,7 @@
   <!-- END open-source projects -->
 
   <!-- VoltageOS -->
+  <include name="snippets/external.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/voltage.xml" />
 </manifest>
