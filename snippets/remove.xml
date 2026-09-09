@@ -9,6 +9,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/release" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/development" />
   <remove-project name="platform/libcore" />
 
   <!-- External -->
@@ -17,9 +18,15 @@
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libchrome-gestures" />
+  <remove-project name="platform/external/libcupsfilters" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjxl" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libppd" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/tinycompress" />
@@ -38,6 +45,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/nxp/secure_element" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/st/nfc" />
 
@@ -48,6 +56,7 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/ContactsPicker" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
@@ -61,6 +70,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/AppSearch" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/common" />

@@ -21,6 +21,7 @@
   <project path="bionic" name="bionic" remote="vos" revision="17" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="vos" revision="17" />
   <project path="bootable/recovery" name="bootable_recovery" remote="vos" revision="17" />
+  <project path="development" name="development" remote="vos" revision="17" />
   <project path="libcore" name="libcore" remote="vos" revision="17" />
 
   <!-- Device -->
@@ -44,11 +45,17 @@
   <project path="external/dng_sdk" name="external_dng_sdk" remote="vos" revision="17" />
   <project path="external/dtc" name="external_dtc" remote="vos" revision="17" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vos" revision="17" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="vos" revision="17" />
+  <project path="external/freetype" name="external_freetype" remote="vos" revision="17" />
   <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="vos" revision="17" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="vos" revision="17" />
   <project path="external/json-c" name="external_json-c" remote="vos" revision="17" />
   <project path="external/libchrome-gestures" name="external_libchrome-gestures" remote="vos" revision="17" />
+  <project path="external/libcupsfilters" name="external_libcupsfilters" remote="vos" revision="17" />
+  <project path="external/libhevc" name="external_libhevc" remote="vos" revision="17" />
   <project path="external/libjxl" name="external_libjxl" remote="vos" revision="17" />
+  <project path="external/libpng" name="external_libpng" remote="vos" revision="17" />
+  <project path="external/libppd" name="external_libppd" remote="vos" revision="17" />
   <project path="external/mksh" name="external_mksh" remote="vos" revision="17" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="vos" revision="17" />
   <project path="external/setupcompat" name="external_setupcompat" remote="vos" revision="17" />
@@ -71,6 +78,7 @@
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="vos" revision="17" />
   <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="vos" revision="17" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="vos" revision="17" />
+  <project path="hardware/nxp/secure_element" name="hardware_nxp_secure_element" remote="vos" revision="17" />
   <project path="hardware/st/nfc" name="hardware_st_nfc" remote="vos" revision="17" />
   <project path="hardware/voltage/interfaces" name="hardware_voltage_interfaces" remote="vos" revision="17" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="vos" revision="17" />
@@ -107,6 +115,7 @@
   <project path="packages/apps/Canvas" name="packages_apps_Canvas" remote="vos" revision="17" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vos" revision="17" />
   <project path="packages/apps/Covers" name="packages_apps_Covers" remote="vos" revision="17" />
+  <project path="packages/apps/ContactsPicker" name="packages_apps_ContactsPicker" remote="vos" revision="17" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vos" revision="17" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vos" revision="17" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="vos" revision="17" />
@@ -137,6 +146,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="vos" revision="17" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vos" revision="17" />
   <project path="packages/apps/EuiccPolicy" name="packages_apps_EuiccPolicy" remote="vos" revision="17" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="vos" revision="17" />
   <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="vos" revision="17" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="vos" revision="17" />
   <project path="packages/modules/common" name="packages_modules_common" remote="vos" revision="17" />
