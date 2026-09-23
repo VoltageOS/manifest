@@ -159,6 +159,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="vos" revision="17" />
   <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="vos" revision="17" />  
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="vos" revision="17" />
+  <project path="packages/modules/Telephony" name="packages_modules_Telephony" remote="vos" revision="17" />
   <project path="packages/modules/UprobeStats" name="packages_modules_UprobeStats" remote="vos" revision="17" />
   <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="vos" revision="17" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="vos" revision="17" />
@@ -167,6 +168,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vos" revision="17" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="vos" revision="17" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="vos" revision="17" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="vos" revision="17" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="vos" revision="17" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" revision="17" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" revision="17" />
@@ -181,7 +183,9 @@
   <project path="system/extras" name="system_extras" remote="vos" revision="17" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="vos" revision="17" />
   <project path="system/keymaster" name="system_keymaster" remote="vos" revision="17" />
+  <project path="system/libfmq" name="system_libfmq" remote="vos" revision="17" />
   <project path="system/libhidl" name="system_libhidl" remote="vos" revision="17" />
+  <project path="system/libufdt" name="system_libufdt" remote="vos" revision="17" />
   <project path="system/libziparchive" name="system_libziparchive" remote="vos" revision="17" />
   <project path="system/media" name="system_media" remote="vos" revision="17" />
   <project path="system/memory/libdmabufheap" name="system_memory_libdmabufheap" remote="vos" revision="17" />
