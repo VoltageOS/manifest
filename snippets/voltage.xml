@@ -36,11 +36,13 @@
   <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="vos" revision="17" />
 
   <!-- External -->
+  <project path="external/aac" name="external_aac" remote="vos" revision="17" />
   <project path="external/AppCompatConfig" name="external_AppCompatConfig" remote="vos" revision="17" />
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="vos" revision="17" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="vos" revision="17" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" revision="17" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="vos" revision="17" />
+  <project path="external/avb" name="external_avb" remote="vos" revision="17" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="vos" revision="17" />
   <project path="external/conscrypt" name="external_conscrypt" remote="vos" revision="17" />
   <project path="external/dng_sdk" name="external_dng_sdk" remote="vos" revision="17" />
@@ -50,17 +52,20 @@
   <project path="external/freetype" name="external_freetype" remote="vos" revision="17" />
   <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="vos" revision="17" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="vos" revision="17" />
+  <project path="external/hplip" name="external_hplip" remote="vos" revision="17" />
   <project path="external/json-c" name="external_json-c" remote="vos" revision="17" />
   <project path="external/libchrome-gestures" name="external_libchrome-gestures" remote="vos" revision="17" />
   <project path="external/libcupsfilters" name="external_libcupsfilters" remote="vos" revision="17" />
   <project path="external/libhevc" name="external_libhevc" remote="vos" revision="17" />
   <project path="external/libjxl" name="external_libjxl" remote="vos" revision="17" />
+  <project path="external/libopenapv" name="external_libopenapv" remote="vos" revision="17" />
   <project path="external/libpng" name="external_libpng" remote="vos" revision="17" />
   <project path="external/libppd" name="external_libppd" remote="vos" revision="17" />
   <project path="external/mksh" name="external_mksh" remote="vos" revision="17" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="vos" revision="17" />
   <project path="external/setupcompat" name="external_setupcompat" remote="vos" revision="17" />
   <project path="external/tinycompress" name="external_tinycompress" remote="vos" revision="17" />
+  <project path="external/tremolo" name="external_tremolo" remote="vos" revision="17" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="vos" revision="17" />
 
   <!-- Framework -->
@@ -127,6 +132,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="vos" revision="17" />
   <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="vos" revision="17" />
   <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="vos" revision="17" />
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="vos" revision="17" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vos" revision="17" />
   <project path="packages/apps/NetworkLocation" name="packages_apps_NetworkLocation" remote="vos" revision="17" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="gitlab" revision="17" />
@@ -155,9 +161,12 @@
   <project path="packages/modules/Connectivity" name="packages_modules_connectivity" remote="gitlab" revision="17" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="vos" revision="17" />
   <project path="packages/modules/HealthFitness" name="packages_modules_HealthFitness" remote="vos" revision="17" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="vos" revision="17" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="vos" revision="17" />
+  <project path="packages/modules/NeuralNetworks" name="packages_modules_NeuralNetworks" remote="vos" revision="17" />
   <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="vos" revision="17" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="vos" revision="17" />
+  <project path="packages/modules/Profiling" name="packages_modules_Profiling" remote="vos" revision="17" />
   <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="vos" revision="17" />  
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="vos" revision="17" />
   <project path="packages/modules/Telephony" name="packages_modules_Telephony" remote="vos" revision="17" />
@@ -171,6 +180,8 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="vos" revision="17" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="vos" revision="17" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="vos" revision="17" />
+  <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="vos" revision="17" />
+  <project path="packages/services/Mms" name="packages_services_Mms" remote="vos" revision="17" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vos" revision="17" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="vos" revision="17" />
 
@@ -184,6 +195,7 @@
   <project path="system/core" name="system_core" remote="vos" revision="17" />
   <project path="system/extras" name="system_extras" remote="vos" revision="17" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="vos" revision="17" />
+  <project path="system/gsid" name="system_gsid" remote="vos" revision="17" />
   <project path="system/keymaster" name="system_keymaster" remote="vos" revision="17" />
   <project path="system/libfmq" name="system_libfmq" remote="vos" revision="17" />
   <project path="system/libhidl" name="system_libhidl" remote="vos" revision="17" />
@@ -204,6 +216,9 @@
   <!-- Tools -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="vos" revision="17" />
   <project path="tools/metalava" name="tools_metalava" remote="vos" revision="17" />
+
+  <!-- Trusty -->
+  <project path="trusty/user/base" name="trusty_user_base" remote="vos" revision="17" />
 
   <!-- Vendor -->
   <project path="vendor/apn" name="vendor_apn" remote="vos" revision="17" />
