@@ -42,6 +42,7 @@
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" revision="17" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="vos" revision="17" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="vos" revision="17" />
+  <project path="external/conscrypt" name="external_conscrypt" remote="vos" revision="17" />
   <project path="external/dng_sdk" name="external_dng_sdk" remote="vos" revision="17" />
   <project path="external/dtc" name="external_dtc" remote="vos" revision="17" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vos" revision="17" />
@@ -179,6 +180,7 @@
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="vos" revision="17" />
+  <project path="system/ca-certificates" name="system_ca-certificates" remote="vos" revision="17" />
   <project path="system/core" name="system_core" remote="vos" revision="17" />
   <project path="system/extras" name="system_extras" remote="vos" revision="17" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="vos" revision="17" />

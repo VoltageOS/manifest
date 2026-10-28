@@ -15,6 +15,7 @@
   <!-- External -->
   <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/conscrypt" />
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
@@ -98,6 +99,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/fs/fs_mgr" />
